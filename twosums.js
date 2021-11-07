@@ -1,7 +1,16 @@
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+
+//function to find if there is another value that equals to target - nums[i]
 function twoSum(nums, target) {
+    //condition if nums[i]<2
     if (nums.length < 2) {
-      return [];
+        console.log("The amount of element nums must more than 1");
     }
+    //looping for find nums[i] + nums[j] = target
     for (let i = 0; i < nums.length; i++) {
       for (let j = i + 1; j < nums.length; j++) {
         if (nums[i] + nums[j] === target) {
@@ -22,3 +31,6 @@ function twoSum(nums, target) {
 
   var example4 = twoSum([1,4,2,1,7,3],3);
   console.log(example4);
+
+  var example5 = twoSum([1],3);
+  console.log(example5);
