@@ -19,4 +19,6 @@ function twoSum(nums, target) {
 
   var example3 = twoSum([3,3],6);
   console.log(example3);
-  
+
+  var example4 = twoSum([1,4,2,1,7,3],3);
+  console.log(example4);
