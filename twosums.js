@@ -11,5 +11,12 @@ function twoSum(nums, target) {
     }
     return [];
   }
-  var x = twoSum([2,7,11,15],13);
-  console.log(x);
+  var example1 = twoSum([2,7,11,15],13);
+  console.log(example1);
+
+  var example2 = twoSum([3,2,4],6);
+  console.log(example2);
+
+  var example3 = twoSum([3,3],6);
+  console.log(example3);
+  
